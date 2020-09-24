@@ -62,7 +62,7 @@
 
 
 .profile__image {
-    background-image: url(../src/assets/headshot_color2.jpg);
+    background-image: url('../assets/headshot_color2.jpg');
     border-radius: 50px;
     height: 100px;
     width: 100px;

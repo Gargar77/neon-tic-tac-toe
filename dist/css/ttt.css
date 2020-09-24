@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-image: url('../src/assets/neon_triangle.jpg');
+    background-image: url('../assets/neon_triangle.jpg');
     background-size: cover;
     background-position-x: center;
 }

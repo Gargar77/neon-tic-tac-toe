@@ -5,12 +5,15 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "npx webpack",
+    "start": "node server.js",
+    "heroku-postbuild": "npx webpack -p"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "lodash": "^4.17.20"
   },
   "devDependencies": {
